@@ -120,7 +120,7 @@ function App() {
   };
 
   const generateQuestion = async (prompt) => {
-    const apiKey = "sk-proj-dpMraC8iKy5wGOlJNZTCT3BlbkFJPDcxIbDZqKgRuFJMF3Gr";
+    const apiKey = ""; // openai api key here
     const openai = new OpenAI({ apiKey, dangerouslyAllowBrowser: true });
     let generatedQuestion = "";
 
