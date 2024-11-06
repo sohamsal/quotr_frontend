@@ -151,7 +151,7 @@ function App() {
       "https://studio-api-us.ai.vonage.com/telephony/make-call";
 
     const callData = {
-      agent_id: "6619ee0f4be7aad2b69d02be",
+      agent_id: "", // vonage api id here
       to: number,
       hangup_on_answer_machine: false,
       session_parameters: [
